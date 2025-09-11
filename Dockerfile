@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# نصب dependencies سیستمی مورد نیاز
+# نصب dependencies سیستمی
 RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
@@ -10,9 +10,11 @@ RUN apt-get update && apt-get install -y \
     libopenblas-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# نصب اولیه NumPy و dependencies
+# نصب اولیه NumPy
 RUN pip install numpy==1.24.3
-RUN pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+
+# نصب PyTorch با نسخه مشخص
+RUN pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cpu
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
