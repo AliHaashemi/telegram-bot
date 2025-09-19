@@ -7,9 +7,9 @@ import requests
 from io import BytesIO
 
 # تنظیمات ربات
-API_ID = 'your_api_id'  # از my.telegram.org دریافت کنید
-API_HASH = 'your_api_hash'  # از my.telegram.org دریافت کنید
-BOT_TOKEN = 'your_bot_token'  # از @BotFather دریافت کنید
+API_ID = '22004807'  # از my.telegram.org دریافت کنید
+API_HASH = '1ec7530fc7c4892ebbef7371bb6105ba'  # از my.telegram.org دریافت کنید
+BOT_TOKEN = '8352301516:AAG53OQsRiqr7SJ4H4P1O_D3y-KiKEcaDPs'  # از @BotFather دریافت کنید
 
 # آدرس مدل در Google Drive (لینک مستقیم)
 MODEL_URL = "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
