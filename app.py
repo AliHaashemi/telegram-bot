@@ -12,7 +12,7 @@ API_HASH = '1ec7530fc7c4892ebbef7371bb6105ba'  # از my.telegram.org دریاف
 BOT_TOKEN = '8352301516:AAG53OQsRiqr7SJ4H4P1O_D3y-KiKEcaDPs'  # از @BotFather دریافت کنید
 
 # آدرس مدل در Google Drive (لینک مستقیم)
-MODEL_URL = "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
+MODEL_URL = "https://drive.google.com/drive/folders/1tnTOfSpWSqC1qrNz6SJTYQbmi3nR--OC?usp=sharing"
 
 # مسیر ذخیره مدل محلی
 MODEL_PATH = "flan-t5-small"
