@@ -1,8 +1,5 @@
 python-telegram-bot
 transformers
-torch --index-url https://download.pytorch.org/whl/cpu
+torch
 accelerate
-supabase
-requests
-sentencepiece
-protobuf
+google-colab
