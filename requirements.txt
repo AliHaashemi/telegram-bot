@@ -1,5 +1,4 @@
-python-telegram-bot
+telethon
 transformers
 torch
-accelerate
-google-colab
+requests
